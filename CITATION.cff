@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article and this archive."
+title: "Analysis code for: Early Temperature-Deficit Burden and In-Hospital Mortality Among Hypothermic Surgical ICU Patients: A Two-Database Cohort Study"
+type: software
+authors:
+  - family-names: Li
+    given-names: Juan
+    affiliation: "Department of Anesthesiology, The Sixth Medical Center of the Chinese PLA General Hospital, Beijing, China"
+  - family-names: Zeng
+    given-names: Ruxiao
+    affiliation: "Department of Anesthesiology, The Sixth Medical Center of the Chinese PLA General Hospital, Beijing, China"
+  - family-names: Li
+    given-names: Jiannan
+    affiliation: "Department of Anesthesiology, The Sixth Medical Center of the Chinese PLA General Hospital, Beijing, China"
+  - family-names: Cao
+    given-names: Fuyang
+    orcid: "https://orcid.org/0000-0002-3746-8489"
+    affiliation: "Department of Anesthesiology, The Sixth Medical Center of the Chinese PLA General Hospital, Beijing, China"
+    email: "caofuyang840723@163.com"
+version: 1.0.0
+date-released: "2026-10-25"
+license: MIT
+repository-code: "https://github.com/caofuyang/temperature-deficit-burden"
+keywords:
+  - perioperative hypothermia
+  - temperature deficit
+  - critical care
+  - MIMIC-IV
+  - eICU-CRD
+  - reproducibility

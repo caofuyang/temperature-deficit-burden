@@ -1,0 +1,24 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local data and patient-level intermediates: never commit these
+data/
+revision_source/
+derived_rewarming_v3/
+v3_analysis_results/
+*_internal.csv
+*_cohort.csv.gz
+v3_analysis_results.zip
+
+# Local scratch
+*.log
+*.tmp
+.env
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
