@@ -48,6 +48,10 @@ in `results/`.
 | Supplementary Figure S1 | `Figure1_trajectory_profiles.png` (step 02) |
 | Supplementary Figure S2 | `Figure_Spline_AUC_Mortality.png` (step 03) |
 
+## Note on the pooled estimate
+
+`Table4_fixed_effect_summary.csv` (fixed-effect pooled OR) is intentionally not archived: the pooled estimate was removed from the manuscript during revision, and the numbers are no longer reported.
+
 ## Known gaps
 
 * `interpolation_auc_summary.csv` is archived as a result table; the short helper that
