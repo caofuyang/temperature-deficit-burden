@@ -1,0 +1,2 @@
+﻿database,analysis,n,deaths,hospitals,odds_ratio_per_sd,ci_lower,ci_upper,p_value,note
+eICU,Hospital-stratified conditional logistic regression,2391,173,52,1.8860586303016085,1.5840819381084765,2.245601740262747,1.0236802825058757e-12,Controls all hospital-level factors constant within hospital; hospitals without outcome variation are omitted by design.

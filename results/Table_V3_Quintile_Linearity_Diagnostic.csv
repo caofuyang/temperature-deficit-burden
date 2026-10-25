@@ -1,0 +1,3 @@
+﻿database,linear_loglik,categorical_loglik,augmented_loglik,lr_statistic,df,p_value,note
+MIMIC-IV,-342.1304978753547,-346.1870787427129,-340.6170800049772,3.0268357407550184,4,0.5533445905369614,Exploratory augmentation of the linear model by Q2-Q5 indicators; natural spline is the primary functional-form diagnostic.
+eICU,-556.9303391774586,-573.7743334266011,-554.6276501721302,4.60537801065675,4,0.3302345833034493,Exploratory augmentation of the linear model by Q2-Q5 indicators; natural spline is the primary functional-form diagnostic.
