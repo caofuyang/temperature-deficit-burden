@@ -1,0 +1,7 @@
+﻿database,variable,available_n,cohort_n,coverage_percent
+MIMIC-IV,severity_map_min,1393,1422,97.96061884669479
+MIMIC-IV,severity_gcs_min,1092,1422,76.79324894514767
+MIMIC-IV,severity_lactate_max,1119,1422,78.69198312236287
+MIMIC-IV,severity_creatinine_max,1085,1422,76.30098452883263
+eICU,apachescore,2436,2592,93.98148148148148
+eICU,acutephysiologyscore,2436,2592,93.98148148148148

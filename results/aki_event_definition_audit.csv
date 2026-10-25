@@ -1,0 +1,3 @@
+database,cohort_n,linked_pre_and_post_n,prevalent_observed_by_6h,at_risk_n,incident_events,lab_rows_within_icu
+MIMIC-IV,1422,1306,83,1223,403,8595
+eICU-CRD,2592,2052,116,1936,575,12905
