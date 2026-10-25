@@ -1,0 +1,7 @@
+﻿database,analysis,n,deaths,hospitals,covariance,odds_ratio_per_sd,ci_lower,ci_upper,p_value,log_likelihood
+MIMIC-IV,Statsmodels verification of final boundary-carried primary AUC,1422,161,1,HC1,1.8176127448729478,1.4069422294980383,2.348153336404761,4.809901867045492e-06,-342.130497869873
+MIMIC-IV,"Tight boundary coverage (first <=1 h; last >=5 h), original AUC",571,88,1,HC1,1.9701419173421537,1.327762139402148,2.923309122382661,0.0007568898368917296,-191.45336864185822
+MIMIC-IV,Observed-interval AUC without boundary extrapolation (adjusted for observed duration),571,88,1,HC1,1.921215862611643,1.3470135340689091,2.7401880511185537,0.00031290889277949425,-190.66238884643934
+eICU,Statsmodels verification of final boundary-carried primary AUC,2592,177,109,hospital-clustered,1.826844101424868,1.5572992535619408,2.14304306849017,1.377125234123185e-13,-556.9303391774587
+eICU,"Tight boundary coverage (first <=1 h; last >=5 h), original AUC",2002,125,99,hospital-clustered,1.8282321124278107,1.5020548301743666,2.2252401109247444,1.7694447244964142e-09,-401.3432172805283
+eICU,Observed-interval AUC without boundary extrapolation (adjusted for observed duration),2002,125,99,hospital-clustered,1.8539282812157114,1.5105032786728851,2.2754337050570346,3.505642509070519e-09,-398.6463931925181

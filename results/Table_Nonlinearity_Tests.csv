@@ -1,0 +1,3 @@
+﻿database,linear_loglik,spline_loglik,lr_statistic,df,p_nonlinearity,n,note
+MIMIC-IV,-342.130497869873,-341.9843721902431,0.29225135925980794,2,0.8640491029888869,1422,Likelihood-ratio comparison of linear AUC with a 4-df natural cubic spline
+eICU,-556.9303391774587,-553.8295354380996,6.201607478718188,2,0.04501300912342458,2592,Likelihood-ratio comparison of linear AUC with a 4-df natural cubic spline
