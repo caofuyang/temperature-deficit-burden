@@ -1,0 +1,3 @@
+database,n_at_risk,aki_events,OR_per_full_cohort_SD,CI_low,CI_high,p,full_cohort_auc_SD,definition
+MIMIC-IV,1223,403,1.1645508249512648,0.9263469377481841,1.4640072403017237,0.1919839231313929,2.443321328361616,creatinine-only KDIGO; ordered 48h comparisons; ICU-censored to day 7; core broad covariates plus baseline creatinine
+eICU-CRD,1936,575,1.2737698011030623,1.05188982228633,1.5424519486989434,0.013209808897688743,1.967581304084387,creatinine-only KDIGO; ordered 48h comparisons; ICU-censored to day 7; core broad covariates plus baseline creatinine

@@ -1,0 +1,523 @@
+{
+  "cohort_n": 2592,
+  "tables": {
+    "admissionDx": {
+      "rows_in_cohort": 13798,
+      "any_stays": 2588,
+      "terms": {
+        "sepsis_shock": {
+          "rows": 3,
+          "all": 3,
+          "by6h": 1,
+          "after6h": 2,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": [
+            [
+              "admission diagnosis|All Diagnosis|Non-operative|Diagnosis|Cardiovascular|Sepsis, pulmonary",
+              2
+            ],
+            [
+              "admission diagnosis|All Diagnosis|Non-operative|Diagnosis|Cardiovascular|Shock, cardiogenic",
+              1
+            ]
+          ]
+        },
+        "bleeding": {
+          "rows": 62,
+          "all": 62,
+          "by6h": 53,
+          "after6h": 4,
+          "negative": 5,
+          "no_offset": 0,
+          "top_labels": [
+            [
+              " diagnosis|All Diagnosis|Operative|Diagnosis|Neurology|Hemorrhage/hematoma-intracranial, surgery for",
+              14
+            ],
+            [
+              "l Diagnosis|Operative|Diagnosis|Neurology|Subarachnoid hemorrhage/intracranial aneurysm, surgery for",
+              12
+            ],
+            [
+              " previous GI surgery; surgery for (anastomotic leak, bleeding, abscess, infection, dehiscence, etc.)",
+              12
+            ],
+            [
+              "bleeder, exploration and evacuation of hematoma, debridement, pseudoaneurysms, clots, fistula, etc.)",
+              7
+            ],
+            [
+              "eart surgery, surgery for (i.e. bleeding, infection, mediastinal rewiring,leaking aortic graft etc.)",
+              4
+            ],
+            [
+              "dmission diagnosis|All Diagnosis|Operative|Diagnosis|Gastrointestinal|Bleeding-upper GI, surgery for",
+              4
+            ],
+            [
+              "dmission diagnosis|All Diagnosis|Operative|Diagnosis|Gastrointestinal|Bleeding-lower GI, surgery for",
+              3
+            ],
+            [
+              "dmission diagnosis|All Diagnosis|Operative|Diagnosis|Gastrointestinal|Bleeding-other GI, surgery for",
+              3
+            ]
+          ]
+        },
+        "surgical_site_infection": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "arrhythmia": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        }
+      }
+    },
+    "diagnosis": {
+      "rows_in_cohort": 35266,
+      "any_stays": 2499,
+      "terms": {
+        "sepsis_shock": {
+          "rows": 1673,
+          "all": 251,
+          "by6h": 173,
+          "after6h": 191,
+          "negative": 2,
+          "no_offset": 0,
+          "top_labels": [
+            [
+              "cardiovascular|shock / hypotension|hypotension / pressor dependent",
+              317
+            ],
+            [
+              "cardiovascular|shock / hypotension|hypotension",
+              244
+            ],
+            [
+              "cardiovascular|shock / hypotension|cardiogenic shock",
+              176
+            ],
+            [
+              "cardiovascular|shock / hypotension|septic shock",
+              154
+            ],
+            [
+              "cardiovascular|shock / hypotension|sepsis",
+              146
+            ],
+            [
+              "cardiovascular|shock / hypotension|sepsis|severe",
+              116
+            ],
+            [
+              "cardiovascular|shock / hypotension|hypovolemic shock|hemorrhagic",
+              80
+            ],
+            [
+              "cardiovascular|shock / hypotension|hypovolemia",
+              78
+            ]
+          ]
+        },
+        "bleeding": {
+          "rows": 1624,
+          "all": 227,
+          "by6h": 157,
+          "after6h": 183,
+          "negative": 3,
+          "no_offset": 0,
+          "top_labels": [
+            [
+              "hematology|bleeding and red blood cell disorders|anemia",
+              268
+            ],
+            [
+              "hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia",
+              254
+            ],
+            [
+              "neurologic|post-neurosurgery|post craniotomy|for hemorrhage",
+              101
+            ],
+            [
+              "burns/trauma|trauma - abdomen|retroperitoneal trauma|with hemorrhage",
+              96
+            ],
+            [
+              "hematology|bleeding and red blood cell disorders|anemia|anemia of critical illness",
+              90
+            ],
+            [
+              "cardiovascular|shock / hypotension|hypovolemic shock|hemorrhagic",
+              80
+            ],
+            [
+              "hematology|bleeding and red blood cell disorders|hemorrhage",
+              57
+            ],
+            [
+              "hematology|bleeding and red blood cell disorders|hemorrhage|postoperative",
+              45
+            ]
+          ]
+        },
+        "surgical_site_infection": {
+          "rows": 23,
+          "all": 9,
+          "by6h": 8,
+          "after6h": 3,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": [
+            [
+              "infectious diseases|skin, bone and joint infections|wound infection",
+              12
+            ],
+            [
+              "infectious diseases|skin, bone and joint infections|wound infection|surgical wound",
+              8
+            ],
+            [
+              "surgery|infections|wound infection",
+              2
+            ],
+            [
+              "surgery|infections|wound infection|surgical wound",
+              1
+            ]
+          ]
+        },
+        "arrhythmia": {
+          "rows": 989,
+          "all": 213,
+          "by6h": 113,
+          "after6h": 180,
+          "negative": 3,
+          "no_offset": 0,
+          "top_labels": [
+            [
+              "cardiovascular|arrhythmias|atrial fibrillation",
+              398
+            ],
+            [
+              "cardiovascular|arrhythmias|atrial fibrillation|with rapid ventricular response",
+              166
+            ],
+            [
+              "cardiovascular|arrhythmias|sinus tachycardia",
+              70
+            ],
+            [
+              "cardiovascular|arrhythmias|atrial fibrillation|with controlled ventricular response",
+              48
+            ],
+            [
+              "cardiovascular|arrhythmias|atrial flutter",
+              42
+            ],
+            [
+              "cardiovascular|arrhythmias|bradycardia",
+              36
+            ],
+            [
+              "cardiovascular|arrhythmias|ventricular tachycardia|sustained",
+              27
+            ],
+            [
+              "cardiovascular|arrhythmias|ventricular tachycardia|non-sustained",
+              24
+            ]
+          ]
+        }
+      }
+    },
+    "treatment": {
+      "rows_in_cohort": 68706,
+      "any_stays": 2303,
+      "terms": {
+        "sepsis_shock": {
+          "rows": 3627,
+          "all": 716,
+          "by6h": 522,
+          "after6h": 508,
+          "negative": 10,
+          "no_offset": 0,
+          "top_labels": [
+            [
+              "cardiovascular|shock|vasopressors|phenylephrine (Neosynephrine)",
+              592
+            ],
+            [
+              "cardiovascular|shock|vasopressors|norepinephrine <= 0.1 micrograms/kg/min",
+              532
+            ],
+            [
+              "cardiovascular|shock|vasopressors|norepinephrine > 0.1 micrograms/kg/min",
+              454
+            ],
+            [
+              "cardiovascular|shock|vasopressors|vasopressin",
+              349
+            ],
+            [
+              "cardiovascular|shock|vasopressors|epinephrine <= 0.1 micrograms/kg/min",
+              240
+            ],
+            [
+              "cardiovascular|shock|vasopressors",
+              197
+            ],
+            [
+              "cardiovascular|shock|inotropic agent|milrinone",
+              179
+            ],
+            [
+              "cardiovascular|shock|vasopressors|epinephrine > 0.1 micrograms/kg/min",
+              165
+            ]
+          ]
+        },
+        "bleeding": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "surgical_site_infection": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "arrhythmia": {
+          "rows": 1940,
+          "all": 425,
+          "by6h": 229,
+          "after6h": 359,
+          "negative": 5,
+          "no_offset": 0,
+          "top_labels": [
+            [
+              "cardiovascular|arrhythmias|antiarrhythmics|class III antiarrhythmic|amiodarone",
+              1096
+            ],
+            [
+              "cardiovascular|arrhythmias|electrolyte administration|potassium",
+              134
+            ],
+            [
+              "cardiovascular|arrhythmias|antiarrhythmics|class IV antiarrhythmic|diltiazem",
+              119
+            ],
+            [
+              "cardiovascular|arrhythmias|electrolyte administration|magnesium",
+              114
+            ],
+            [
+              "cardiovascular|arrhythmias|beta blocker|metoprolol",
+              57
+            ],
+            [
+              "cardiovascular|arrhythmias|maze procedure",
+              39
+            ],
+            [
+              "cardiovascular|arrhythmias|digoxin",
+              38
+            ],
+            [
+              "cardiovascular|arrhythmias|antiarrhythmics|class I antiarrhythmic|lidocaine",
+              38
+            ]
+          ]
+        }
+      }
+    },
+    "note": {
+      "rows_in_cohort": 27889,
+      "any_stays": 2580,
+      "terms": {
+        "sepsis_shock": {
+          "rows": 33,
+          "all": 11,
+          "by6h": 3,
+          "after6h": 10,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "bleeding": {
+          "rows": 15,
+          "all": 12,
+          "by6h": 8,
+          "after6h": 5,
+          "negative": 1,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "surgical_site_infection": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "arrhythmia": {
+          "rows": 15,
+          "all": 13,
+          "by6h": 0,
+          "after6h": 13,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        }
+      }
+    },
+    "nurseCare": {
+      "rows_in_cohort": 87978,
+      "any_stays": 142,
+      "terms": {
+        "sepsis_shock": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "bleeding": {
+          "rows": 3061,
+          "all": 132,
+          "by6h": 112,
+          "after6h": 128,
+          "negative": 31,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "surgical_site_infection": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "arrhythmia": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        }
+      }
+    },
+    "carePlanInfectiousDisease": {
+      "rows_in_cohort": 31,
+      "any_stays": 11,
+      "terms": {
+        "sepsis_shock": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "bleeding": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "surgical_site_infection": {
+          "rows": 1,
+          "all": 1,
+          "by6h": 1,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "arrhythmia": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        }
+      }
+    },
+    "microLab": {
+      "rows_in_cohort": 112,
+      "any_stays": 16,
+      "terms": {
+        "sepsis_shock": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "bleeding": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "surgical_site_infection": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        },
+        "arrhythmia": {
+          "rows": 0,
+          "all": 0,
+          "by6h": 0,
+          "after6h": 0,
+          "negative": 0,
+          "no_offset": 0,
+          "top_labels": []
+        }
+      }
+    }
+  }
+}
